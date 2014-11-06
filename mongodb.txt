@@ -15,7 +15,7 @@ if [ -f /etc/sysconfig/mongodb ]; then
 	. /etc/sysconfig/mongodb
 fi
 
-prog="mongodb"
+prog="mongod"
 mongod="/usr/local/mongodb/bin/mongod"
 config_file="/usr/local/etc/mongodb.conf"
 RETVAL=0
